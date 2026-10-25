@@ -2,7 +2,7 @@
 
 ![Farol do Família no Controle](assets/farol.png)
 
-Registre despesas e receitas e consulte o placar da sua família na conversa com o Claude. A skill Farol no Claude orienta o uso das oito ferramentas do conector com os nomes, categorias e contas da sua família.
+Registre despesas e receitas e consulte o placar da sua família na conversa com o Claude. A skill Farol no Claude orienta o uso das ferramentas do conector com os nomes, categorias e contas da sua família.
 
 ## Conexão
 
@@ -56,3 +56,22 @@ Suporte: [contato@familianocontrole.com.br](mailto:contato@familianocontrole.com
 ## Licença e versão
 
 Versão 0.1.2, ainda não publicada no diretório. Textos e configurações sob licença MIT, aprovada pelo titular em 26/09/2026. A marca e o ícone mantêm os direitos reservados e a permissão limitada descrita em LICENSE.
+
+
+## Piloto de consulta da Agenda
+
+A consulta `consultar_agenda` está em piloto restrito a usuários que a autorizaram
+especificamente. As conexões OAuth desses usuários passam a ver a ferramenta;
+as demais contas, inclusive as contas de revisão do diretório, mantêm as
+ferramentas anteriores sem acesso à Agenda. Tokens legados não recebem essa função.
+
+No piloto, é possível consultar contas abertas do mês, atrasos e vencimentos de
+um período. Os totais cobrem o filtro inteiro, mesmo com paginação, e indicam
+valores estimados. A consulta não cadastra contas, não baixa pagamentos e não
+envia avisos. Pode ser necessário abrir uma conversa nova ou atualizar a conexão
+no assistente para renovar a lista de ferramentas.
+
+O pacote 0.2.0 está preparado localmente, com documentação e caso de teste da
+Agenda. Ainda não foi submetido: o caso depende de autorização específica para
+a conta revisora entrar no piloto. As submissões anteriores continuam em análise.
+Leia o [complemento de privacidade](https://familianocontrole.com.br/privacidade-ia.html).
