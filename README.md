@@ -45,7 +45,7 @@ O pacote contém instruções e a configuração de um único servidor remoto, c
 
 Quando você pede uma ação, os campos necessários chegam ao servidor. As respostas podem conter valores, descrições, datas, categorias, baús, contas e pessoas da família, de acordo com a ferramenta. O Claude recebe essas respostas para atender ao pedido. Os lançamentos e registros de operação ficam no serviço Família no Controle; o pacote não cria um armazenamento local próprio. O tratamento da conversa no Claude segue as condições da sua conta Anthropic.
 
-Consulte a [Política de Privacidade](https://familianocontrole.com.br/legal.html#privacidade), os [Termos de Uso](https://familianocontrole.com.br/legal.html#termos) e a [privacidade da Anthropic](https://www.anthropic.com/legal/privacy).
+Consulte a [Privacidade das conexões de IA](https://familianocontrole.com.br/privacidade-ia.html), os [Termos de Uso](https://familianocontrole.com.br/legal.html#termos) e a [privacidade da Anthropic](https://www.anthropic.com/legal/privacy).
 
 ## Resolver dificuldades
 
@@ -55,4 +55,4 @@ Suporte: [contato@familianocontrole.com.br](mailto:contato@familianocontrole.com
 
 ## Licença e versão
 
-Versão 0.1.1, ainda não publicada. Textos e configurações sob licença MIT, aprovada pelo titular em 26/09/2026. A marca e o ícone mantêm os direitos reservados e a permissão limitada descrita em LICENSE.
+Versão 0.1.2, ainda não publicada no diretório. Textos e configurações sob licença MIT, aprovada pelo titular em 26/09/2026. A marca e o ícone mantêm os direitos reservados e a permissão limitada descrita em LICENSE.

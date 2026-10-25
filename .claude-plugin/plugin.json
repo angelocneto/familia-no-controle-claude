@@ -1,6 +1,7 @@
 {
   "name": "familia-no-controle",
-  "version": "0.1.1",
+  "displayName": "Família no Controle",
+  "version": "0.1.2",
   "description": "Registre despesas e receitas e consulte o placar da sua família no Claude, com autorização da sua conta do Família no Controle.",
   "author": {
     "name": "Família no Controle",
@@ -17,5 +18,9 @@
   "mcpServers": "./.mcp.json",
   "license": "MIT",
   "icon": "./assets/farol.png",
-  "privacyPolicyUrl": "https://familianocontrole.com.br/legal.html#privacidade"
+  "privacyPolicyUrl": "https://familianocontrole.com.br/privacidade-ia.html",
+  "repository": "https://github.com/angelocneto/familia-no-controle-claude",
+  "documentationUrl": "https://github.com/angelocneto/familia-no-controle-claude#readme",
+  "supportUrl": "https://familianocontrole.com.br/#rodape",
+  "termsOfServiceUrl": "https://familianocontrole.com.br/legal.html#termos"
 }
