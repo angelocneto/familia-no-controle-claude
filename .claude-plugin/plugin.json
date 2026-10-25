@@ -1,0 +1,21 @@
+{
+  "name": "familia-no-controle",
+  "version": "0.1.1",
+  "description": "Registre despesas e receitas e consulte o placar da sua família no Claude, com autorização da sua conta do Família no Controle.",
+  "author": {
+    "name": "Família no Controle",
+    "email": "contato@familianocontrole.com.br",
+    "url": "https://familianocontrole.com.br"
+  },
+  "homepage": "https://familianocontrole.com.br",
+  "keywords": [
+    "financas",
+    "familia",
+    "orcamento",
+    "pt-BR"
+  ],
+  "mcpServers": "./.mcp.json",
+  "license": "MIT",
+  "icon": "./assets/farol.png",
+  "privacyPolicyUrl": "https://familianocontrole.com.br/legal.html#privacidade"
+}
